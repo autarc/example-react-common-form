@@ -1,0 +1,43 @@
+/**
+ * # Form Field (Styles)
+ *
+ *
+ */
+
+.common-form-field {
+  --color-grey-1: #e3e3e3;
+  --color-grey-2: #c3c3c3;
+  --color-grey-3: #a3a3a3;
+  --color-red: rgb(255, 0, 0);
+}
+
+.common-form-field__label {
+  display: block;
+  /* padding: 5px 10px; */
+  /* position: relative; */
+}
+
+.common-form-field__input {
+  display: block;
+  width: 100%;
+  /* padding: 10px; */
+  /* padding: 5px 10px; */
+  margin-top: 2px;
+  border: 1px solid;
+  border-color: var(--color-grey-1);
+  outline: none;
+}
+
+.common-form-field__input:hover {
+  border-color: var(--color-grey-2);
+}
+
+.common-form-field__input:focus {
+  border-color: var(--color-grey-3);
+}
+
+.common-form-field__error {
+  margin-top: 0.5rem;
+  margin-left: 7px;
+  color: var(--color-red);
+}
